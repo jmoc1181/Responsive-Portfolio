@@ -1,0 +1,509 @@
+
+* { 
+  box-sizing: border-box; 
+}
+
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+
+html {
+overflow-y: scroll;
+}
+
+
+body {
+	background-image: url(https://github.com/jmoc1181/Basic-Portfolio/blob/master/assets/images/pw_maze_white.png?raw=true);
+}
+
+
+ h1 {
+	color: #4aaaa5; 
+	font-size: 30px;
+	font-family:  'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+ }
+
+ h2 {
+	color: #4aaaa5; 
+	font-size: 20px;
+	font-family:  'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+ }
+
+ span{
+
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-ser;
+	color: #777777;
+
+
+ }
+
+ img {
+ 	float: left;
+ 	padding-right: 15px;
+ }
+
+
+
+textarea {
+  width: 600px;
+  height: 150px;
+  border-color: #777777;
+}
+
+
+
+
+form { 
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-ser;
+	font-size: 18px;
+
+ }
+
+.header{
+	background-color: white;
+	height: 100px;
+	border-style:solid;
+	border-color: #cccccc;
+	border-width:  2px;
+
+}
+
+.name {
+	background-color:  #4aaaa5;
+	height: 85px;
+	width: 200px; 
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 30px;
+	margin: 12px 0 0 240px;
+	font-weight: bold;
+
+}
+
+.nav {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-ser;
+	font-size: 18px;
+	margin: -50px 0 0 905px;
+
+
+}
+
+a { 
+	color: #777777;
+	text-decoration: none;
+
+ }
+
+ .aboutme {
+	background-color: white;
+	width: 650px; 
+	height: 400px;
+	margin-top: 40px;
+	padding: 20px 0 0 15px;
+	float: left;
+	border:1px;
+	border-style: solid;
+	border-color: #dddddd;
+ }
+
+ .bio { 
+	display:inline;
+	float: left;
+
+  }
+
+
+  .portfolio {
+	background-color: white;
+	width: 650px; 
+	height: 1000px;
+	margin-top: 40px;
+	padding: 20px 0 0 15px;
+	float: left;
+	margin-bottom: 50px;
+	border:1px;
+	border-style: solid;
+	border-color: #dddddd;
+
+ }
+
+  .contactme {
+	background-color: white;
+	width: 650px; 
+	height: 600px;
+	margin-top: 40px;
+	padding: 20px 0 0 15px;
+	float: left;
+	margin-bottom: 50px;
+	border:1px;
+	border-style: solid;
+	border-color: #dddddd;
+
+ }
+
+ .style1 {
+ 	border-top: 2px solid #777777;
+ 	width: 600px
+ }
+
+ .style2 {
+ 	border-top: 2px solid #777777;
+ 	width: 210px
+ }
+
+.connect { 
+	background-color: white;
+	width: 270px; 
+	float: left;
+	height: 150px;
+	margin-left: 20px;
+	margin-top: 40px;
+	padding: 20px 0 0 30px;
+	border:1px;
+	border-style: solid;
+	border-color: #dddddd;
+
+ }
+
+ .social {
+ 	margin-left: 16px;
+ }
+
+
+
+.hangman { 
+		float: left;
+		margin-left: 15px;
+	 }	 
+
+.tealbox {
+		position: absolute;
+		margin-top: 200px;
+		width: 235px;
+		height: 50px;
+		background-color: #4aaaa5;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		text-align: center;
+		padding-top: 15px;
+		color: white;
+		font-size: 20px;
+}	 
+
+.rpg { 
+
+		float: right;
+
+	 }	 
+
+.trivia { 
+	float: left;
+	margin-top: 25px;
+	margin-left: 15px;
+	
+ }	 
+
+.coil { 
+	float: left;
+	margin-top: 25px;
+	margin-left: 15px;
+	
+ }	 
+
+
+.info { 
+
+	float: right;
+	margin-top: 25px;
+	 }	 
+
+
+.footer {
+  position:fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 100px;
+  padding: 1rem;
+  background-color: #666666;
+  border-top-width: 5px;
+  border-color:#4aaaa5; 
+  border-style:solid;
+  text-align: center;
+  color: #777777;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-ser;
+
+}
+
+
+input[type=submit]  {
+	-webkit-appearance: button;
+	height: 40px;
+	width: 120px;
+	background-color: #4aaaa5;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-ser;
+	font-size: 18px;
+	color: white;
+	border: none;
+	
+}
+
+
+@media screen and (min-width:769px) and (max-width: 980px){
+  	span{
+  	clear:left;
+	display: block;
+}
+
+	.bio { 
+	display: block;
+	margin: 0 0 10px 200px;
+
+}
+
+ 	.nav {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-ser;
+	font-size: 18px;
+	margin: -50px 0 0 680px;
+}
+
+	.name {
+
+	padding-top: 30px;
+	margin: 12px 0 0 10px;
+}
+
+
+
+.portfolio {
+	height: 1500px;
+	width: 650px; 
+	margin: 40px 0 10px 10px;
+
+}
+
+
+.hangman { 
+	clear:both;
+	margin: 0 0 5px 200px;
+ }
+
+
+
+.rpg { 
+
+	clear:both;
+	margin: 0 0 5px 200px;
+	float: left;
+		 }	 
+
+
+.trivia { 
+	clear:both;
+	margin: 0 0 5px 200px;
+ }	 
+
+.coil { 
+    clear:both;
+    margin: 0 0 5px 200px;
+ }	 
+
+
+.info { 
+
+	clear:both;
+	margin: 0 0 5px	 200px;
+	float: left;
+	 }	
+
+.contactme { 
+	margin: 40px 0 10px 10px;
+  }
+
+.aboutme {
+	margin: 40px 0 0 10px;
+ }
+
+
+
+}
+
+
+
+
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    .connect {
+    width:650px ;
+    margin:20px 0 150px 10px;
+	overflow: scroll;
+
+ }
+
+
+	.style2 {
+ 	border-top: 2px solid #777777;
+ 	width: 600px
+    }
+
+  
+	.name {
+
+	padding-top: 30px;
+	margin: 12px 0 0 10px;
+
+}
+	.aboutme {
+	margin: 40px 0 0 10px;
+ }
+
+ 	.nav {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-ser;
+	font-size: 18px;
+	margin: -50px 0 0 390px;
+}
+
+ 	.portfolio { 
+	margin: 40px 0 10px 10px;
+  }
+
+   	.contactme { 
+	margin: 40px 0 10px 10px;
+  }
+
+}
+
+
+@media screen and (max-width: 640px) {
+	
+
+  	span{
+  	clear:left;
+	display: block;
+}
+
+	.bio { 
+	display: block;
+	margin: 0 0 10px 200px;
+
+}
+
+    .connect {
+    width:650px ;
+    margin:20px 0 150px 5px;
+	overflow: scroll;
+
+ }
+ 	.aboutme {
+	margin: 40px 0 0 5px;
+ }
+
+  	.nav {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-ser;
+	font-size: 18px;
+	margin: -55px 0 0 300px;
+}
+
+	.name {
+
+	padding-top: 30px;
+	margin: 12px 0 0 5px;
+
+}
+
+	.style2 {
+ 	border-top: 2px solid #777777;
+ 	width: 600px
+    }
+
+.portfolio {
+	height: 1500px;
+	width: 650px; 
+	margin: 40px 0 10px 5px;
+}
+
+.contactme { 
+	margin: 40px 0 10px 5px;
+  }
+
+
+.hangman { 
+	clear:both;
+	margin: 0 0 5px 200px;
+ }
+
+
+
+.rpg { 
+
+	clear:both;
+	margin: 0 0 5px 200px;
+	float: left;
+		 }	 
+
+
+.trivia { 
+	clear:both;
+	margin: 0 0 5px 200px;
+ }	 
+
+.coil { 
+    clear:both;
+    margin: 0 0 5px 200px;
+ }	 
+
+
+.info { 
+
+	clear:both;
+	margin: 0 0 5px	 200px;
+	float: left;
+	 }	
+
+
+
+.name {
+	background-color:  #4aaaa5;
+	height: 75px;
+	width: 100%; 
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	margin: 0 0 0 0;
+
+}
+
+.nav {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-ser;
+	font-size: 18px;
+	margin: 30px 0 0 200px;
+
+
+}
+
+.header{
+	background-color: white;
+	height: 150px;
+	border-style:solid;
+	border-color: #cccccc;
+	border-width:  2px;
+
+}
+
+}
+
+
+
