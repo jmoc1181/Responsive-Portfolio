@@ -398,14 +398,14 @@ span{
 }
 
 .connect {
-    width:50%;
+    width:500px;	
     margin:20px 0 150px 5px;
 	overflow: scroll;
 
  }
 .aboutme {
 	margin: 40px 0 0 5px;
-	width: 50%;
+	width: 640px;
 	height: 500px;
  }
 
@@ -430,13 +430,14 @@ span{
 
 .portfolio {
 	height: 1500px;
-	width: 50%; 
+	width: 500px; 
 	margin: 40px 0 10px 5px;
+	display: block;
 }
 
 .contactme { 
 	margin: 40px 0 10px 5px;
-	width: 50%;
+	width: 500px;
   }
 
 
@@ -508,9 +509,10 @@ span{
 
 }
 
-textarea { 
-	width: 50%;
-	 }
+textarea{ 
+	width: 400px;
+ }
+
 
 }
 
