@@ -385,10 +385,6 @@ input[type=submit]  {
 
 @media screen and (max-width: 640px) {
 	
-.wrapper {
-  width: 500px;
-  margin: 0 auto;
-}
 
 span{
   	clear:left;
@@ -510,6 +506,7 @@ span{
 	border-style:solid;
 	border-color: #cccccc;
 	border-width:  2px;
+	position: static;
 
 }
 
