@@ -385,6 +385,10 @@ input[type=submit]  {
 
 @media screen and (max-width: 640px) {
 	
+.wrapper {
+  width: 500px;
+  margin: 0 auto;
+}
 
 span{
   	clear:left;
@@ -493,7 +497,7 @@ span{
 	color: #777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-ser;
 	font-size: 18px;
-	margin: 30px 0 0 50px;
+	margin: 30px 0 0 120px;
 
 }
 
