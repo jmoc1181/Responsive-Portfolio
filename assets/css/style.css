@@ -83,7 +83,7 @@ form {
 	font-size: 20px;
 	text-align: center;
 	padding-top: 30px;
-	margin: 12px 0 0 240px;
+	margin: 12px 0 0 17%;
 	font-weight: bold;
 
 }
@@ -92,7 +92,7 @@ form {
 	color: #777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-ser;
 	font-size: 18px;
-	margin: -50px 0 0 905px;
+	margin: -50px 0 0 64%;
 
 
 }
@@ -272,7 +272,7 @@ input[type=submit]  {
 	color: #777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-ser;
 	font-size: 18px;
-	margin: -50px 0 0 680px;
+	margin: -50px 0 0 72%;
 }
 
 	.name {
