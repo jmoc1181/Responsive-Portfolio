@@ -398,7 +398,7 @@ span{
 }
 
 .connect {
-    width:640px ;
+    width:100% ;
     margin:20px 0 150px 5px;
 	overflow: scroll;
 
@@ -431,7 +431,7 @@ span{
 
 .portfolio {
 	height: 1500px;
-	width: 640px; 
+	width: 100%; 
 	margin: 40px 0 10px 5px;
 }
 
