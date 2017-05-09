@@ -398,14 +398,14 @@ span{
 }
 
 .connect {
-    width:100% ;
+    width:50%;
     margin:20px 0 150px 5px;
 	overflow: scroll;
 
  }
 .aboutme {
 	margin: 40px 0 0 5px;
-	width: 640px;
+	width: 50%;
 	height: 500px;
  }
 
@@ -419,24 +419,24 @@ span{
 
 .style2 {
  	border-top: 2px solid #777777;
- 	width: 450px
+ 	width: 450px;
     }
 
 
 .style1 { 
 		 	width: 450px;
-
      }
 
 
 .portfolio {
 	height: 1500px;
-	width: 100%; 
+	width: 50%; 
 	margin: 40px 0 10px 5px;
 }
 
 .contactme { 
 	margin: 40px 0 10px 5px;
+	width: 50%;
   }
 
 
@@ -507,6 +507,10 @@ span{
 	border-width:  2px;
 
 }
+
+textarea { 
+	width: 50%;
+	 }
 
 }
 
